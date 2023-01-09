@@ -14,7 +14,7 @@ def main(request):
             pass
         except Exception as _ex:
             send_telegram_message(u'\U0001F525' + u'\U0001F525' + u'\U0001F525' + f'''
-            Error occurred \n
-            Error text: {_ex} \n
-            Request: {request.POST}
+                Error occurred \n
+                Error text: {_ex} \n
+                Request: {request.POST}
             ''')
