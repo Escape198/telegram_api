@@ -1,6 +1,6 @@
 # Telegram 🍪
 ***
-chat_id - Add @username_to_id_bot to your group
+chat_id - Add `@username_to_id_bot` to your group
 
 token
 
