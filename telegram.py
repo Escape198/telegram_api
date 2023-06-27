@@ -1,6 +1,6 @@
 
 
-def send_telegram_message(text):
+def send_telegram_message(text: str) -> dict:
     token = "XXXXXXXXXX:XXXXXXX_XXXXXXXXXXXXXXXXXXXXXXXXXXX"
     chat_id = "-XXXXXXXXX"
     url_req = f"https://api.telegram.org/bot{token}/sendMessage?chat_id={chat_id}&text={text}"
